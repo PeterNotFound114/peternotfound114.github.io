@@ -1,0 +1,11 @@
+#content {
+    overflow: scroll;
+}
+
+/*  
+    top right bottom left
+    top (right & left) bottom
+    (top & bottom) (right & left) 
+*/
+
+/* color palette: 251605, C57B57, F1AB86, F7DBA7, 9CAFB7 */
