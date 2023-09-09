@@ -1,6 +1,134 @@
-#content {
-    overflow: scroll;
+a:visited {
+    color: blueviolet;
 }
+
+aside {
+    float: right;
+    width: 10%;
+    margin-top: 12px;
+    margin-right: 5%;
+    background-color: #F1A66A;
+    padding: 12px 24px;
+    border-radius: 3%;
+}
+
+aside>img {
+    max-width: 150px;
+    max-height: 150px;
+    margin: auto;
+    border-radius: 100%;
+}
+
+body {
+    background-color: #582630;
+}
+
+#chess_rules {
+    border-radius: 0;
+}
+
+#content {
+    display: inline-block;
+    overflow: scroll;
+    margin-left: 16.6%;
+    width: 60%;
+}
+
+.current_page {
+    color: #FFFFFF;
+}
+
+figure {
+    padding: 24px;
+}
+
+footer {
+    background-color: #F1A66A;
+}
+
+#footer_info {
+    margin-left: 16.6%;
+    padding: 24px 0;
+}
+
+h1 {
+    color: #FFFFFF;
+}
+
+iframe {
+    margin: auto;
+}
+
+nav {
+    padding: 20px 0 20px 16.6%;
+    background-color: #F1A66A;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav>a>h2 {
+    display: inline;
+    margin: 20px;
+    padding: 10px;
+    color: #251605;
+}
+
+.page_section {
+    margin: 12px auto;
+    padding: 1.66% 3.33%;
+    background-color: #DDFFF7;
+    border-radius: 1%;
+}
+
+.page_section figure {
+    margin: auto;
+    max-width: 450px;
+    max-height: 300px;
+}
+
+.page_section img {
+    margin: auto;
+    max-width: 450px;
+    max-height: 300px;
+}
+
+.page_section>p {
+    padding: 12px;
+}
+
+table {
+    margin: 12px;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+table img {
+    width: 175px;
+    height: 175px;
+}
+
+table ul li {
+    margin-top: 6px;
+}
+
+td {
+    border: 1px solid;
+    padding: 24px 12px;
+}
+
+th {
+    border: 1px solid;
+}
+
+thead {
+    margin: 24px;
+}
+
+
+
+
 
 /*  
     top right bottom left
@@ -8,4 +136,4 @@
     (top & bottom) (right & left) 
 */
 
-/* color palette: 251605, C57B57, F1AB86, F7DBA7, 9CAFB7 */
+/* color palette: #F1A66A: nav Bar, #582630: dividers, aside: #F1A66A, text-background: #DDFFF7 */
