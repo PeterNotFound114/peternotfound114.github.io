@@ -30,49 +30,56 @@
         </nav>
     </header>
     <div id="content">
-        <form action="" method="get">
-            <fieldset>
-                <legend>Your Details:</legend>
-                <label>Name: <input type="text" name="name" size="30" maxlength="100"></label><br />
-                <label>Email: <input type="email" name="email" size="30" maxlength="100"></label><br />
-            </fieldset><br />
-            <fieldset>
-                <legend>Chess Info</legend>
-                <p>
-                    <label for="years-in-chess">How long have you been playing chess?</label>
-                    <input type="number" min="0" step="1" id="years-in-chess" name="years-in-chess">
-                </p>
-                <p>
-                    <label for="start-learn">How did you start learning chess?</label>
-                    <select name="start_learning" id="start-learn">
-                        <option value="online">Online</option>
-                        <option value="friend">Friend</option>
-                        <option value="parents/grandparents">Parents / Grandparents</option>
-                        <option value="coach">Coach</option>
-                        <option value="N/A">N/A</option>
-                        <option value="other">Other</option>
-                    </select>
-                </p>
-                <p>
-                    What's your opinion on the Netflix series <i>Queen's Gambit</i>? <br />
-                    <label><input type="radio" name="rating" value="4" /> Great! Definitely going to rewatch it!</label>
-                    <label><input type="radio" name="rating" value="3" /> A decent show.</label>
-                    <label><input type="radio" name="rating" value="2" /> Okay but not very interesting.</label>
-                    <label><input type="radio" name="rating" value="1" /> I don't like it.</label>
-                </p>
-                <p>
-                    <label for="comments">
-                        Any Comments?
+        <div class="page_section">
+            <form action="" method="get">
+                <fieldset>
+                    <legend>Your Details</legend>
+                    <label for="name">Name:</label><br>
+                    <input type="text" name="name" id="name" size="30" maxlength="100"><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" name="email" id="email" size="30" maxlength="100">
+                </fieldset><br />
+                <fieldset>
+                    <legend>Chess Info</legend>
+                    <p>
+                        <label for="years-in-chess">How long have you been playing chess?</label><br>
+                        <input type="number" min="0" step="1" id="years-in-chess" name="years-in-chess">
+                    </p>
+                    <p>
+                        <label for="start-learn">How did you start learning chess?</label><br>
+                        <select name="start_learning" id="start-learn">
+                            <option value="online">Online</option>
+                            <option value="friend">Friend</option>
+                            <option value="parents/grandparents">Parents / Grandparents</option>
+                            <option value="coach">Coach</option>
+                            <option value="N/A">N/A</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </p>
+                    <p>
+                        What's your opinion on the Netflix series <i>Queen's Gambit</i>? <br />
+                        <label><input type="radio" name="rating" value="4" /> Great! Definitely going to rewatch
+                            it!</label>
+                        <label><input type="radio" name="rating" value="3" /> A decent show.</label>
+                        <label><input type="radio" name="rating" value="2" /> Okay but not very interesting.</label>
+                        <label><input type="radio" name="rating" value="1" /> I don't like it.</label>
+                    </p>
+                    <p>
+                        <label for="comments">
+                            Any Comments?
+                        </label><br />
+                        <textarea rows="4" cols="40" id="comments"></textarea>
+                    </p>
+                    <label><input type="checkbox" name="subscribe" checked="checked" />
+                        Sign me up for more tips &amp games of chess
                     </label><br />
-                    <textarea rows="4" cols="40" id="comments"></textarea>
-                </p>
-                <label><input type="checkbox" name="subscribe" checked="checked" />
-                    Sign me up for more tips &amp games of chess
-                </label><br />
-            </fieldset>
-            <input id="reset" type="reset" value="Clear Form">
-            <input id="submit" type="submit" value="Get More Chess Feeds!" />
-        </form>
+                </fieldset>
+                <input id="reset" type="reset" value="Clear Form">
+                <input id="submit" type="submit" value="Get More Chess Feeds!" />
+            </form>
+        </div>
+
+
     </div>
 
     <footer>

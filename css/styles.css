@@ -59,6 +59,10 @@ iframe {
     margin: auto;
 }
 
+legend {
+    font-size: 24px;
+}
+
 nav {
     padding: 20px 0 20px 16.6%;
     background-color: #F1A66A;
@@ -73,6 +77,10 @@ nav>a>h2 {
     margin: 20px;
     padding: 10px;
     color: #251605;
+}
+
+p {
+    font-size: 18px;
 }
 
 .page_section {
@@ -96,6 +104,15 @@ nav>a>h2 {
 
 .page_section>p {
     padding: 12px;
+}
+
+#reset {
+    margin: 18px 24px 18px 0;
+    height: 36px;
+}
+
+#submit {
+    height: 36px;
 }
 
 table {
