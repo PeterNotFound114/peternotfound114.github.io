@@ -52,6 +52,25 @@ footer {
     padding: 24px 0;
 }
 
+#get_chess_rules {
+    margin: auto;
+    text-align: center;
+    width: 144px;
+    height: 36px;
+    background-color: #F1A66A;
+    border: 1px solid;
+    border-radius: 5%;
+}
+
+#get_chess_rules a {
+    text-decoration: none;
+}
+
+#get_chess_rules p {
+    margin-top: 8px;
+    color: #000000;
+}
+
 h1 {
     color: #FFFFFF;
 }
