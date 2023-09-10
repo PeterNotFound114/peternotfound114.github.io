@@ -44,10 +44,11 @@ figure {
 
 footer {
     background-color: #F1A66A;
+    text-align: center;
 }
 
 #footer_info {
-    margin-left: 16.6%;
+    margin: auto;
     padding: 24px 0;
 }
 
@@ -141,6 +142,10 @@ th {
 
 thead {
     margin: 24px;
+}
+
+ul {
+    padding-inline-start: 20px;
 }
 
 
