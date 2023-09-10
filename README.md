@@ -1,23 +1,13 @@
-Ideas for project:
-Queen's Gambit Opening explained
-Personal portfolio
+Theme: Queen's Gambit - Background and Basic Theory
 
-Technical Requirements:
-For page 1, change the images to match your website theme. You can use images that you took or royalty free images from websites like pexels.com.
+As an avid chess player, I am thrilled when I heard that the series Queen's Gambit is
+released, and I am compelled to write some of my thoughts on the chess opening as well
+(since it's my favorite opening as white).In this assignment, I will focus on the basic 
+chess theories and major variations behind the chess opening Queen's Gambit, some 
+advice on how to learn chess from the perspective of a lifelong chess player, and online
+resources that I find particularly helpful to learning chess.
 
-For page 2, edit the table, add borders and change its contents to match the content of your website. You can also add your Fall 2024 schedule on this page.
-
-For page 3, customize the form to fit well within your website. Read chapter 7 on forms before working on this page.
-
-For page 4, adjust the iframe to refer to CMU address or any relevant address to your website theme.
-
-Add a consistent navbar (navigation menu) across all pages of your website. Be consistent and succinct with navigation labels.
-
-Color Palette: coolor.co
-
-Checkpoints:
-Ideation: Aug. 31 DONE!
-Lo-fi: Sep. 1
-Hi-fi: Sep. 2
-First Submission: Sep.10
-Final Deadline: Sep.11
+For the development process, I first drew a lo-fi prototype to help me organize my thoughts
+and information gathered on Queen's Gambit. Then, I implemented such information architecture
+using html. Finally, I added css declarations to the html with a color palette generated 
+by Coolors.
