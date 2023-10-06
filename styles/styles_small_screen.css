@@ -1,0 +1,61 @@
+.med_to_large_screen {
+    display: none;
+}
+
+h1 {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 6vw;
+}
+
+hr {
+    margin-left: 2.3437%;
+    margin-right: 2.3437%;
+}
+
+nav {
+    border-top: solid 0.05em;
+    border-bottom: solid 0.05em;
+}
+
+nav h2 {
+    font-size: 4vw;
+}
+
+nav>a:nth-child(2)>h2 {
+    border-top: solid 0.025em;
+    border-bottom: solid 0.025em;
+    padding: 3.5vw 0;
+}
+
+#content {
+    margin-left: 2.3437%;
+    margin-top: 1.5625%;
+    margin-bottom: 1.5625%;
+}
+
+#profile_pic {
+    display: block;
+    width: 69.23%;
+    height: 42.65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content p {
+    margin-top: 1.3033%;
+    width: 100%;
+    font-size: 3vw;
+    line-height: 3.5vw;
+}
+
+h3 {
+    font-size: 3vw;
+}
+
+.more_info>img {
+    max-width: 2.5%;
+    max-height: 2.5%;
+}

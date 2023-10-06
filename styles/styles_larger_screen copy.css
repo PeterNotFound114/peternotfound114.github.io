@@ -1,0 +1,51 @@
+.small_screen {
+    display: none;
+}
+
+h1 {
+    margin-left: 2.3437%;
+}
+
+#content {
+    margin-left: 2.3437%;
+    margin-top: 1.5625%;
+    margin-bottom: 1.5625%;
+}
+
+nav {
+    border-top: solid 0.05em;
+    border-bottom: solid 0.05em;
+    margin: 0 2.3437%;
+    padding: 1.5625% 0;
+}
+
+nav h2 {
+    display: inline;
+    margin-right: 6%;
+}
+
+#profile_pic {
+    width: 28.125%;
+    height: 37.5%;
+    float: left;
+    margin-bottom: 1.5625%;
+    margin-right: 3.90625%;
+}
+
+#content p {
+    display: inline-block;
+    width: 28.75%;
+    margin: 0;
+    font-size: 1.5vw;
+    line-height: 2vw;
+}
+
+hr {
+    margin-top: 2.34375%;
+    size: 1%;
+}
+
+.more_info>img {
+    max-width: 1.25%;
+    max-height: 1.25%;
+}
